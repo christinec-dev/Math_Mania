@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="clip_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="-80dp"
+        android:fontFamily="@font/luckiest"
+        android:gravity="center"
+        android:text="Game Over!"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/purple"
+        android:textIsSelectable="false"
+        android:textSize="52sp" />
+
+    <LinearLayout
+        android:layout_width="566dp"
+        android:layout_height="647dp"
+        android:background="@drawable/menu"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="360dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonRestart"
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="170dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/luckiest"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Menu"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/background_light"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:fontFamily="@font/luckiest"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Exit"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/background_light"
+                app:backgroundTintMode="multiply" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MathGame">
         <activity
+            android:name=".GameDivide"
+            android:exported="false" />
+        <activity
+            android:name=".GameSubtract"
+            android:exported="false" />
+        <activity
+            android:name=".GameMultiplication"
+            android:exported="false" />
+        <activity
+            android:name=".Result"
+            android:exported="false" />
+        <activity
+            android:name=".Game"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,6 +33,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

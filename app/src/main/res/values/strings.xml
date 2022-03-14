@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Math Game</string>
+    <string name="app_name">Math Mania | Quiz Game</string>
+    <string name="math_mania">Math Mania!</string>
+    <string name="addition">ADDITION</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="hello_world">Hello World</string>
+    <string name="answeer">Enter your answer...</string>
 </resources>
